@@ -1,0 +1,62 @@
+{  
+  "MaxIntervalTreeMods" : 1000,
+  "MaxPoolSize" : 100,
+  "BlockTypeMap" : {
+    "Special" : [
+      "BottomOfWorld",
+      "Empty",
+      "Cloud"
+    ],
+    "Terrain" : [
+      "Grass",
+      "Stone",
+      "StoneDark",
+      "Sand",
+      "Lava",
+      "Dirt",
+      "Snow",
+      "Water"
+    ],
+   "Plants": [
+     "Leaves",
+     "TreeTrunk"
+   ],
+   "Materials" : [
+    "Glass",
+    "GlassRed",
+    "GlassGreen",
+    "GlassBlue"
+   ],
+   "Lights" : [
+    "Light0",
+    "Light1",
+    "Light2",
+    "Light3",
+    "Light4",
+    "Light5",
+    "Light6",
+    "Light7",
+    "Light8",    
+    "Light9",
+   ]
+  },
+  "BlockUvScale" : 1,
+  "BlockWorldScale" : 0.5,
+  "BlockTextureWidth" : 128,
+  "BlockTextureHeight" : 128,
+  "BlockTextureFormat" : "ARGB32",
+  "ChunkSize" : 32,
+  "PatchSize" : 16,
+  "RenderRaySweep" : 64,
+  "WorldHeight" : 512,
+  "WorldWidthChunks"  : 2048, 
+  "WorldDepthChunks"  : 2048,
+  "LoD0Radius" : 7,
+  "LoD1Radius" : 14,
+  "LoD2Radius" : 21,
+  "LoD3Radius" : 28,
+  "TimeSlice" : 0.1,
+  "QueueEscelationTime" : 0.25,
+  "BackgroundThreadTimeout" : 10000,
+  "AutoCompressTime" : 150000
+}

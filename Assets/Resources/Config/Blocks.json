@@ -1,0 +1,317 @@
+{
+  "BottomOfWorld" : {
+    "BlockId": -1,
+    "TextureNames": [
+      "stone"
+    ],
+    "RenderOpaque": true,
+    "AddToRenderMesh": true,
+    "AddToPhysicsMesh": true,
+    "Durability": 100000,
+  },
+  "Empty" : {
+    "BlockId": 0,
+    "TextureNames": [
+    ],
+    "RenderOpaque": false,
+    "AddToRenderMesh": false,
+    "AddToPhysicsMesh": false,
+    "Durability": 0,
+    "Opacity": 2,
+    "OpacitySun": 1,
+  },
+  "Grass": {
+    "BlockId": 1,
+    "TextureNames": [
+      "dirt_grass",
+      "Grass",
+      "dirt_grass",
+      "dirt_grass",
+      "dirt",
+      "dirt_grass"
+    ],
+    "Durability": 0.3
+  },
+  "Dirt" : {
+    "BlockId": 2,
+    "TextureNames": [
+      "stone"
+    ],
+    "Durability": 0.3
+  },
+  "Stone" : {
+    "BlockId": 3,
+    "TextureNames": [
+      "stone"
+    ],
+    "Durability": 0.4
+  },
+  "Sand" : {
+    "BlockId": 4,
+    "TextureNames": [
+      "sand"
+    ],
+    "Durability": 0.3
+  },
+  "StoneDark" : {
+    "BlockId" : 5,
+    "TextureNames": [
+      "greystone"
+    ],
+    "Durability": 0.4
+  },
+  "Snow" : {
+    "BlockId" : 6,
+    "TextureNames": [
+      "dirt_snow",
+      "snow",
+      "dirt_snow",
+      "dirt_snow",
+      "dirt",
+      "dirt_snow"
+    ],
+    "Durability": 0.4
+  },
+  "Leaves" : {
+    "BlockId" : 7,
+    "TextureNames" :  [
+      "leaves_transparent"
+    ],
+    "RenderOpaque" : false,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "OpacityRed" : 16,
+    "OpacityGreen" : 8,
+    "OpacityBlue" : 12
+  },
+  "Lava" : {
+    "BlockId" : 8,
+    "TextureNames" :  [
+      "lava"
+    ],
+    "Durability" : 0.1,
+    "EmissivityRed" : 31,
+  },
+  "TreeTrunk" : {
+    "BlockId" : 10,
+    "TextureNames": [
+      "trunk_side",
+      "trunk_side",
+      "trunk_side",
+      "trunk_side",
+      "trunk_side",
+      "trunk_side"
+    ],
+    "Durability": 0.4,
+  },
+  "TreeTrunkWhite" : {
+    "BlockId" : 11,
+    "TextureNames": [
+      "trunk_white_side",
+      "trunk_white_top",
+      "trunk_white_side",
+      "trunk_white_side",
+      "trunk_white_top",
+      "trunk_white_side"
+    ],
+    "Durability": 0.4,
+  },
+  "Water" : {
+    "BlockId" : 12,
+    "TextureNames" :  [
+      "water"
+    ],
+    "Durability" : 0.1,
+    "RenderOpaque": false,
+    "AddToRenderMesh": false,
+    "AddToPhysicsMesh": false,
+    "Opacity" : 5,
+    "OpacitySun" : 4,
+  },
+  "Glass" : {
+    "BlockId" : 13,
+    "TextureNames" :  [
+      "glass"
+    ],
+    "RenderOpaque" : false,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : true,
+    "Durability" : 0.1,
+    "Opacity" : 2,
+  },
+  "GlassRed" : {
+    "BlockId" : 14,
+    "TextureNames" :  [
+      "glass"
+    ],
+    "RenderOpaque" : false,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : true,
+    "Durability" : 0.1,
+    "OpacityRed": 2,
+  },
+  "GlassGreen" : {
+    "BlockId" : 15,
+    "TextureNames" :  [
+      "glass"
+    ],
+    "RenderOpaque" : false,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : true,
+    "Durability" : 0.1,
+    "OpacityGreen": 2,
+  },
+  "GlassBlue" : {
+    "BlockId" : 16,
+    "TextureNames" :  [
+      "glass"
+    ],
+    "RenderOpaque" : false,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : true,
+    "Durability" : 0.1,
+    "OpacityBlue": 2,
+  },
+  "Cloud" : {
+    "BlockId" : 17,
+    "TextureNames": [
+      "snow",
+    ],
+    "Durability": 0.4,
+    "DetailPriority": 2,
+    "EmissivitySun": 31,
+    "Opacity": 2,
+    "OpacitySun": 1,
+  },
+  "Light0" : {
+    "BlockId" : 18,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 31,
+    "EmissivityBlue": 23,
+    "EmissivityGreen": 7,
+  },
+  "Light1" : {
+    "BlockId" : 19,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 15,
+    "EmissivityBlue": 30,
+    "EmissivityGreen": 18,
+  },
+  "Light2" : {
+    "BlockId" : 20,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 5,
+    "EmissivityBlue": 20,
+    "EmissivityGreen": 30,
+  },
+  "Light3" : {
+    "BlockId" : 21,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 30,
+    "EmissivityBlue": 2,
+    "EmissivityGreen": 30,
+  },
+  "Light4" : {
+    "BlockId" : 22,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 10,
+    "EmissivityBlue": 24,
+    "EmissivityGreen": 29,
+  },
+  "Light5" : {
+    "BlockId" : 23,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 22,
+    "EmissivityBlue": 6,
+    "EmissivityGreen": 30,
+  },
+  "Light6" : {
+    "BlockId" : 24,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 7,
+    "EmissivityBlue": 29,
+    "EmissivityGreen": 4,
+  },
+  "Light7" : {
+    "BlockId" : 25,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 30,
+    "EmissivityBlue": 9,
+    "EmissivityGreen": 20,
+  },
+  "Light8" : {
+    "BlockId" : 26,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 19,
+    "EmissivityBlue": 23,
+    "EmissivityGreen": 24,
+  },
+  "Light9" : {
+    "BlockId" : 27,
+    "TextureNames" :  [
+      "trunk_white_side"
+    ],
+    "RenderOpaque" : true,
+    "AddToRenderMesh" : true,
+    "AddToPhysicsMesh" : false,
+    "Durability" : 0.1,
+    "EmissivityRed": 1,
+    "EmissivityBlue": 13,
+    "EmissivityGreen": 28,
+  }
+}
